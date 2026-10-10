@@ -4,6 +4,8 @@ Disc images and case photos of the 4 CD-ROMs and the DVD from **I-Qbot:01 – Cr
 
 The ISO files are too big to store in git. You can download them from the **[Releases page](https://github.com/Tropdilee/iqbot-01-deagostini-discs/releases/latest)**.
 
+For a detailed map of what is on each CD, see **[DISC-MAP.md](DISC-MAP.md)**. It covers the hardware, the Linux system image, the microcontroller firmware, the protocols and the flashing procedure.
+
 ## Discs
 
 | Disc | File | Volume label | Size | Contents (from the cover) |

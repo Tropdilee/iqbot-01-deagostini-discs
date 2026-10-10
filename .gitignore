@@ -1,0 +1,6 @@
+# Disc images are published as Release downloads (too big for git)
+*.iso
+*.iso.0*
+
+# Photos that were not selected
+not-needed/

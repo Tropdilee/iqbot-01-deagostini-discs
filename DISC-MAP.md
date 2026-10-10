@@ -153,10 +153,13 @@ The command is `IDROID update|backup|verify mtb|head|arms|base <file>`. It refus
 | zImage | build #113 (2006-11-09) | build #4 (2007-03-21) | same as CD-3 |
 | cramfs.img MD5 | `1128215a…` | `096e0c7f…` | `ee86eaba…` |
 | IDROID MD5 | `58010724…` | `dd9d8762…` | `56a012d7…` (newest) |
+| Brain version on the robot's LCD (Diagnostic menu) | `BRN-11` | `BRN-14` | `BRN-16` |
 | MCU firmware | ARMS, BASE×3, HEAD×2, MTB×2 | same | + HAND10IT, URC-10IT, URC-11IT |
 | blob | same on all | | |
 
 Apart from `IDROID` and the extra CD-4 firmware files, the three root filesystems are identical.
+
+The Brain number is hard-coded in each `IDROID` build: it prints `BRN-%02X` with the value 0x11, 0x14 or 0x16. On the robot a language suffix is added after the number, for example `BRN-16NL`. So the Diagnostic menu tells you which CD's software is installed without opening anything. The voice board (`VOI-..`) firmware is not on any of the discs.
 
 ## How flashing works (reference only, nothing was done)
 
